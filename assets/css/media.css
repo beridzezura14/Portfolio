@@ -16,3 +16,172 @@
         max-width: 50%;
     }
 }
+
+@media (max-width: 1125px){
+    .me{
+        margin-top: 2%;
+        position: relative;
+        width: 75%;
+        margin-left: 5%;
+    }
+    .me-container{
+        max-width: 90%;
+        margin-left: 5%;
+        padding: 2rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .pre-present-me h2{
+        margin-right: 20px;
+    }
+    .img-me{
+        display: none;
+    }
+    .hide-desktop{
+        display: block;
+        z-index: 1111;
+    }
+    .img-me-mobile{
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .menu{
+        margin-top: 1%;
+    }
+    .section-hero, .section-aboute, .section-resume,
+    .section-portfolio, .section-skills, .section-contact{
+        max-width: 70%;
+        margin-left: 10%;
+    }
+    .hero-paragraphe, .aboute-paragraph{
+        width: 90%;
+    }
+}
+@media (max-width: 895px){
+    .me{
+        margin-top: 2%;
+        position: relative;
+        width: 70%;
+        margin-left: 7%;
+    }
+    .me-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        max-width: 70%;
+        margin-left: 15%;
+    }
+    .img-me-mobile{
+        width: 300px;
+        border-radius: 20px;       
+    }
+    .hide-desktop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 800px){
+    .me{
+        margin-top: 2%;
+        position: relative;
+        width: 70%;
+        margin-left: 2%;
+    }
+    .section-hero, .section-aboute, .section-resume,
+    .section-portfolio, .section-skills, .section-contact{
+        max-width: 70%;
+        margin-left: 5%;
+    }
+    .project{
+        margin-top: 30px;
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        padding: 20px 0px;
+        width: 100%;
+        border: 1px solid #555555;
+        border-radius: 20px;
+        justify-content: flex-start;
+    }
+    .project-img{
+        width: 300px;
+        margin: 0 30px;
+    }
+    .project div{
+        width: 300px;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: left;
+    }
+    .resume-date div{
+        padding: 0 0 0px 42px; 
+    }
+
+    .item{
+        padding: 0 0 30px 50px; 
+    }
+
+
+
+    .skills-row{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .skills-item{
+        padding-right: 5px;
+    }
+}
+@media (max-width: 510px){
+
+    .img-me-mobile{
+        width: 250px;
+        border-radius: 20px;       
+    }
+    .me-container{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        max-width: 90%;
+        margin-left: 5%;
+    }
+        .project-img{
+        width: 250px;
+        margin: 0 30px;
+    }
+    .project div{
+        width: 250px;
+    }
+    .last-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .mini-nav a{
+        margin-top: 20px;
+    }
+    .icon-footer{
+        margin-top: 40px;
+    }
+    .icon-footer a{
+        margin: 0px 15px 0 0;
+    }
+}
+
+@media (max-width: 380px){
+    .me{
+        width: 70%;
+        margin-left: 0%;
+    }
+    .section-hero, .section-aboute, .section-resume,
+    .section-portfolio, .section-skills, .section-contact{
+        max-width: 70%;
+        margin-left: 4%;
+    }
+    .skills-item img{
+        width: 120px;
+    }
+    
+}

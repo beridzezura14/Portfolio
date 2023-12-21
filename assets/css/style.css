@@ -49,6 +49,9 @@ body{
     border-radius: 20px;
     margin-bottom: 20px;
 }
+.hide-desktop{
+    display: none;
+}
 
 .icon{
     margin: 15px;
@@ -75,25 +78,6 @@ body{
     padding: 10px 0;
     border-radius: 20px;
 }
-/* .top-project{
-    margin-top: 30px;
-}
-.top-project h2{
-    color: white;
-}
-.top-image{
-    margin-top: 20px;
-    width: 350px;
-    border: 2px solid greenyellow;
-    margin-bottom: 20px;
-}
-.top-image-mobile{
-    position: absolute;
-    width: 100px;
-    right: 20px;
-    top: 45px;
-    border: 2px solid greenyellow;
-} */
 
 /* ----------------------  right aside bar Meni  ---------------------------------*/
 .menu{
@@ -422,7 +406,7 @@ body{
     color: #a7a7a7;
 }
 .icon-footer a{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .icon-footer ion-icon{
     color: #a7a7a7;
